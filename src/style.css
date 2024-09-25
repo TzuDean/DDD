@@ -1,0 +1,367 @@
+*{margin:0 ;padding: 0;}
+img{border: none; vertical-align: bottom;}
+html{ height: 100%;}
+
+body{
+  max-width: 1920px;
+}
+
+.content{
+  position: relative;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.content img,.content video,.logo img{
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Swiper */
+
+.swiper1BG
+{
+  position: absolute;
+  width: 84%;
+  left: 8%;
+  top: 30%;
+}
+.swiper2BG
+{
+  position: absolute;
+  width: 84%;
+  left: 8%;
+  top: 35%;
+}
+
+.content .swiper-button-next{
+  color: #3878e9;
+  right: 0%;
+  top: 60%;
+}
+
+.content .swiper-button-prev{
+  color: #3878e9;
+  left: 0%;
+  top: 60%;
+}
+
+
+
+.content .swiper-button-next:after,
+.content .swiper-button-prev::after {
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0, 0.5));
+}
+
+.content .swiper-pagination {
+  top: 90% !important;
+}
+.content .swiper-pagination-2 {
+  top: 84% !important;
+}
+
+.content .swiper-pagination .swiper-pagination-bullet {
+  margin: 0 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.content .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #3878e9;
+}
+
+@media (max-width:768px) {
+  .content .swiper-pagination .swiper-pagination-bullet {
+      margin: 0 5px;
+      width: 8px;
+      height: 8px;
+  }
+
+  .content .swiper-button-next:after,
+  .block-07 .swiper-button-prev::after {
+      font-size: 30px;
+  }
+
+  .content .swiper-button-next {
+      right: 0%;
+  }
+
+  .content .swiper-button-prev {
+      left: 0%;
+  }
+}
+
+/* section s*/
+.block-01{
+  background: url(../images/c1bk.png)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-02{
+  background: url(../images/c2bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-03{
+  background: url(../images/c3bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-04{
+  background: url(../images/c4bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-05{
+  background: url(../images/c5bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-06{
+  background: url(../images/c6bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-07{
+  background: url(../images/c7bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-08{
+  background: url(../images/c8bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-09{
+  background: url(../images/c9bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+.block-13{
+  background: url(../images/c10bk.jpg)top center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.block-14{
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.logo{
+  position: absolute;
+  top: 23%;
+  left: 8%;
+  width: 15%;
+}
+
+/* animate star*/
+.bg01-right{
+  position: absolute;
+  top: 15.5%;
+  left: 38%;
+  width: 58.5%;
+  z-index: 3;
+
+}
+
+.bg02-center{
+  position: absolute;
+  top: 74.5%;
+  left: 25%;
+  width: 46%;
+  z-index: 4;
+}
+
+.bg03-center{
+  position: absolute;
+  top: 37%;
+  left: 5.2%;
+  width: 92%;
+  z-index: 4;
+}
+
+.bg04-center{
+  position: absolute;
+  top: 6%;
+  left: 0.2%;
+  width: 100%;
+  z-index: 4;
+}
+
+.bg06-center{
+  position: absolute;
+  top: 36.34%;
+  left: 16.4%;
+  width: 67.3%;
+  z-index: 4;
+}
+.bg062-center{
+  position: absolute;
+  top: 75.5%;
+  left: 10%;
+  width: 80%;
+  z-index: 4;
+}
+.bg063-center{
+  position: absolute;
+  top: 29%;
+  left: 52%;
+  width: 5%;
+  z-index: 4;
+}
+
+.bg10-center{
+  position: absolute;
+  top: 25.34%;
+  left: 11.4%;
+  width: 80%;
+  z-index: 4;
+}
+.ig{
+  position: absolute;
+  top: 88.34%;
+  left: 80.4%;
+  width: 8%;
+  z-index: 4;
+}
+.behance{
+  position: absolute;
+  top: 88.34%;
+  left: 90.4%;
+  width: 8%;
+  z-index: 4;
+}
+/* animate  end*/
+
+/* tabs star*/
+.tabs{
+  position: absolute;
+  top: 67.5%;
+  left: 16%;
+}
+.tab button{
+  display: block;
+  background-color: inherit;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 8px;
+  font-size: 17px;
+  width: 15%;
+  margin: 0 2% 0 0;
+}
+.tab button:hover {
+  border: 1.2px solid #555555;
+  border-radius: 80%
+}
+
+.tab button.active{
+  border: 1.2px solid #555555;
+  border-radius: 80%
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 20% 0 0 1%;
+  text-align: center;
+  display: none;
+}
+/* tabs end */
+
+.scrollicon{
+  position: absolute;
+  left: 44%;
+  top: -4.4%;
+  width: 3%;
+  animation:scrollMove 1s ease-in infinite alternate;
+}
+
+.scrollicon2{
+  position: absolute;
+  left: 9%;
+  top: 31.6%;
+  width: 86%;
+  animation:scrollMove 1s ease-in infinite alternate;
+}
+
+.scrollicon3{
+  position: absolute;
+  top: 29.34%;
+  left: 29.4%;
+  width: 41%;
+  animation:scrollMove 1s ease-in infinite alternate;
+}
+
+@keyframes scrollMove {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+
+/* Content start */
+
+.mailbtn{
+  position: absolute;
+  top: 58%;
+  left: 18%;
+  width: 63%;
+}
+
+.btn1:hover,.btn2:hover, .btn3:hover,.btn4:hover,.min1:hover,.min2:hover,.min3:hover,.min4:hover,.min5:hover,.min6:hover,.min7:hover, 
+.min8:hover,.min9:hover,.min10:hover,.min11:hover,.min12:hover,.mailbtn:hover{
+  opacity: 80%;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+
+/* btn e*/
+
+
+/* RWD */
+@media screen and (min-width:900px){
+  .block-01b{
+    display: none;
+  }
+}
+
+@media screen and (max-width:900px){
+  .block-00{
+    display: none;
+  }
+  .tabcontent{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .tablink{
+    padding: 5px 5px;
+  }
+}
